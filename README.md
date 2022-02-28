@@ -1,2 +1,2 @@
-# klasa1Te_gr1
+# Klasa3PTc_Gr1
 Created with CodeSandbox

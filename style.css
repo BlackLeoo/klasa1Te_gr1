@@ -1,0 +1,50 @@
+:root {
+  --font-family: Helvetica, sans-serif;
+  --font-family_header: "Franklin Gothic Medium", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: var(--font-family);
+  font-size: clamp(0.6rem, 2vw, 1.4rem);
+  background: #c3c3c3;
+}
+header {
+  font-family: var(--font-family_header);
+  margin-bottom: 2rem;
+}
+h1 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+}
+table {
+  width: 100%;
+  border: 0.2rem double #ff0000;
+}
+th,
+td {
+  border: 0.1rem solid #000;
+}
+thead {
+  font-family: var(--font-family_header);
+}
+thead tr:nth-child(2) th {
+  text-transform: uppercase;
+}
+tbody {
+  text-align: center;
+  background: #fff;
+}
+tbody tr td {
+  padding: 0.2rem;
+}
+tbody tr:nth-child(even) {
+  background: #000;
+  color: #fff;
+}
+tbody tr:hover {
+  color: #ff0000;
+}
